@@ -11,7 +11,7 @@ spec:
     matchLabels:
       name: worker-app-pod
       app: demo-voting-app
-    
+
   template:
     metadata:
       name: worker-app-pod
@@ -21,5 +21,4 @@ spec:
     spec:
       containers:
         - name: worker-app
-          image: kodekloud/examplevotingapp_worker:v1
-    
+          image: dockersamples/examplevotingapp_worker
